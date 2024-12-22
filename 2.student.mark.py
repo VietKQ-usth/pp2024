@@ -22,13 +22,13 @@ class Student(Course):
         self.__name = name
     
     def getname(self):
-        return self.name
+        return self.__name
     
     def setid(self,id):
         self.__id = id
     
     def getid(self):
-        return self.id
+        return self.__id
     
     def display(self):
         print("\nStudentName", self.__name, "age", self.age, "id", self.__id, "Course",self.cour_id, "mark", self.getMark() )
