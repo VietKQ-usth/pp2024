@@ -1,4 +1,4 @@
-# Input number of students
+
 def number_of_students():
     return int(input("Enter the number of students: "))
 
